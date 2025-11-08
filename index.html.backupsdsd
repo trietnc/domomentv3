@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>domoment</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Noto+Sans+JP:wght@100..900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles/styles.css" />
+  </head>
+  <body>
+    <header class="header">
+        <img class="logo" src="image/logo.png" />
+        <nav>
+          <a href="#">Contact</a>
+          <a href="#">Instagram</a>
+          <button class="btn btn-download" href="#">
+            <img class="apple-icon" src="icon/apple.svg" />
+            Download for iOS</button>
+          <!-- Theme toggle button -->
+          <button id="theme-toggle" class="theme-toggle" role="switch" aria-checked="false" aria-label="Toggle dark mode">
+            <span class="toggle-track">
+              <span class="toggle-thumb"></span>
+            </span>
+          </button>
+        </nav>
+          </header>
+    <section class="introduce-section">
+      <div class="introduction" >
+        <div class="logo-text">
+          <h1 class="domoment">domoment</h1>
+        <div class="slogan-container">
+          <div class="slogan-1">
+            <p class="slogan-text">
+              from moment
+            </p>
+            <img class="main-icon" src="icon/Flash.svg" />
+          </div>
+          <div class="slogan-2">
+            <img class="main-icon clip-path" src="icon/Clip path group.svg" />
+            <p class="slogan-text">
+               to movement
+            </p>
+          </div>
+        </div>
+        <div class="description">
+          <p class="turn-voice">Turn Voice Notes Into Action — Fast,  Simple,  Everywhere</p>
+          <a class ="btn btn-try-now" href="#">Try domoment Now</a>
+        </div>
+        <div class="banner">
+          <img src = "image/Phone-holding-main-section.png" />
+        </div>
+      </div>
+    </section>
+    <section class="feature-section">
+      <div class="feature-intro">
+        <div class="feature-line feature-line-1"> 
+          <div class="line-1">
+            <div class="line-svg">
+              <img class="feature-icon" src="icon/bulb.svg" />
+            </div>
+            <div class="line-text">
+              <h3>Ideas vanish</h3>
+            </div>
+          </div>
+          <div class="line-2">
+              <p>Thoughts strike anytime - and vanish before you can<br>write them down.</p>
+            </div>
+        </div>
+        <div class="feature-line feature-line-2"> 
+          <div class="line-1">
+            <div class="line-svg">
+              <img class="feature-icon" src="icon/Wavy_Help.svg" />
+            </div>
+            <div class="line-text">
+              <h3>Flow disrupted</h3>
+            </div>
+          </div>
+          <div class="line-2">
+              <p>Stop killing your flow.<br>Typing breaks the zone. Just speak stay in your rhythm.</p>
+            </div>
+        </div>
+      </div>
+      <div class="feature-intro">
+        <div class="feature-line feature-line-2 feature-line-phone-1"> 
+          <div class="line-1">
+            <div class="line-svg">
+              <img class="feature-icon" src="icon/Note_Search.svg" />
+            </div>
+            <div class="line-text">
+              <h3>Stuck in thoughts</h3>
+            </div>
+          </div>
+          <div class="line-2">
+              <p>Too many notes, not enough action.<br>You grab ideas faster than you can sort or use them.</p>
+            </div>
+        </div>
+        <div class="feature-line feature-line-1 feature-line-phone-2"> 
+          <div class="line-1">
+            <div class="line-svg">
+              <img class="feature-icon" src="icon/Timer_Close.svg" />
+            </div>
+            <div class="line-text">
+              <h3>Tools slow you down</h3>
+            </div>
+          </div>
+          <div class="line-2">
+              <p>Your tools shouldn't waste your time.<br>Most apps make productivity harder.</p>
+            </div>
+        </div>
+      </div>
+      <div class="feature-detail">
+        <div class="feature-capture feature-1">
+          <div class="feature-text-detail">
+            <h2>Instant Capture &#8594; Action</h2>
+            <p class="dark-line"></p>
+            <p>Speak or type an idea.<br>AI instantly turns it into notes, tags, and tasks</p>
+          </div>
+          <div class="feature-image">
+            <img class="voices" src="image/Voices.png" />
+            <img class="selection" src="image/Selection.png" />
+        </div>
+      </div>
+      <div class="feature-capture feature-2">
+          <div class="feature-image feature-image-2">
+            <img class="organized" src="image/Organized.png" />
+            <img class="arrow" src="icon/Arrow.svg" />
+            <img class="notes" src="image/notes.png" />          </div>
+          <div class="feature-text-detail feature-text-detail-2">
+            <h2>Organized Without Effort</h2>
+            <p class="dark-line dark-line-2"></p>
+            <p>AI summaries and semantic search help you<br>find anything in seconds.</p>
+          </div>
+        </div>
+      <div class="feature-capture feature-3">
+          <div class="feature-text-detail feature-text-detail-3">
+            <h2>Daily Clarity</h2>
+            <p class="dark-line"></p>
+            <p>Stay on top of every Tasks,<br>everyday.</p>
+            <a class="learn-more" href="#">Learn More »</a>
+          </div>
+          <div class="feature-image">
+            <img class="daily-1" src="image/Daily 1.png" />
+            <img class="bottom-sheet" src="image/Bottom Sheet 1.png" />
+        </div>
+      </div>
+      </div>
+    </section>
+    <section class="faqs-section">
+      <h1>FAQs</h1>
+      <div class="faqs-container">
+          <button class="btn question question-1" >
+            <p>How do I <span class="gradient-text">capture ideas fast</span> with domoment?</p>
+            <img class="arrow-icon" src="icon/Caret_Down_MD.svg" />
+          </button>
+          <button class="btn question question-2" >
+            <p>Is my voice data <span class="gradient-text">private and secure?</span></p>
+            <img class="arrow-icon" src="icon/Caret_Down_MD.svg" />
+          </button>
+          <button class="btn question question-3" >
+            <p>What if inspiration hits when I’m <span class="gradient-text">offline?</span></p>
+            <img class="arrow-icon" src="icon/Caret_Down_MD.svg" />
+          </button>
+          <button class="btn question question-4" >
+            <p>Is domoment <span class="gradient-text">free or paid?</span></p>
+            <img class="arrow-icon" src="icon/Caret_Down_MD.svg" />
+          </button>
+          <button class="btn question question-5" >
+            <p><span class="gradient-text">Why</span> choose domoment over other notes apps?</p>
+            <img class="arrow-icon" src="icon/Caret_Down_MD.svg" />
+          </button>
+      </div>
+      <div class="mail-section">
+        <h1>Don't lose another great idea again</h1>
+        <div class="mail-input-section">
+          <h3 class="mail-text">
+            Join 847 newsletter writers who are done with scattered notes
+          </h3>
+          <div class="mail-input-container">
+            <img class="mail-icon" src="icon/Email, @, Circle.svg" />
+            <input class="mail-input" type="email" placeholder="Enter your email" />
+            <button class="btn btn-join">Join Waitlist</button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section class="footer">
+      <div class="footer-content">
+        <img class="footer-logo" src="image/logo.png" />
+        <p class="footer-text">domoment</p>
+      </div>
+      <div class="footer-contact">
+        <a class="footer-link" style="color: hsl(0 0% 50%);" href="#">App Store</a>
+        <p class="dot">&#8226;</p>
+        <a class="footer-link" style="color: hsl(0 0% 50%);" href="#">Contact</a>
+        <p class="dot">&#8226;</p>
+        <a class="footer-link" style="color: hsl(0 0% 50%);" href="#">X (FKA Twitter)</a>
+        <p class="dot">&#8226;</p>
+        <a class="footer-link" style="color: hsl(0 0% 50%);" href="#">Privacy policy</a>
+      </div>
+      <div class="footer-end">
+        <p>Crafted in Da Nang, Vietnam</p>
+      </div>
+    </section>
+    <script src="script/script.js"></script>
+  </body>
+</html>
